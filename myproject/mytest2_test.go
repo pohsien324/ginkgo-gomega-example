@@ -9,12 +9,12 @@ import (
 var _ = Describe("Mytest2", func() {
      var number2 int 
 
-     // If you want to test BeforeEach function, comment the following assignment.
+     // If you want to execute test without BeforeEach function, uncomment the following assignment.
      //number2  = 99
 
 
      BeforeEach(func(){
-       // If you want to test BeforeEach function, uncomment the following assignment.
+       // If you want to execute test without BeforeEach function, comment the following assignment.
        number2  = 99
      }) 
 
